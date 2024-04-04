@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cdcbe82380bd843a478723b977edc0, type: 3}
+  m_Name: Projectile Damage
+  m_EditorClassIdentifier: 
+  DurationPolicy: 0
+  DurationMagnitude: {fileID: 0}
+  DurationMultiplier: 0
+  Period: 0
+  ExecuteOnApplication: 0
+  EffectModifiers:
+  - Stat: 6
+    ModifierOperator: 3
+    ModifierMagnitude: {fileID: 11400000, guid: d0d16daa1a17ac74086b450b342f884c, type: 2}
+    EffectCue: {fileID: 11400000, guid: e4adda4795dd042408af462cd1967039, type: 2}
+    Multiplier: -1
+    clampMax: 1
+    clampMin: 1
+    maxStatClamp: 6
+    min: 0
+  StatChangeType: 1
+  EffectTags:
+    GrantedTags: []
+    OngoingTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    ApplicationTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    RemovalTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    RemoveGameplayEffectsWithTag: []

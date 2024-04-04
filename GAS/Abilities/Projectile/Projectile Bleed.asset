@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cdcbe82380bd843a478723b977edc0, type: 3}
+  m_Name: Projectile Bleed
+  m_EditorClassIdentifier: 
+  DurationPolicy: 1
+  DurationMagnitude: {fileID: 11400000, guid: 8c71cb797e609034f90fb5f4df1b8eb3, type: 2}
+  DurationMultiplier: 1
+  EffectModifiers:
+  - Stat: 6
+    ModifierOperator: 3
+    ModifierMagnitude: {fileID: 11400000, guid: d0d16daa1a17ac74086b450b342f884c, type: 2}
+    EffectCue: {fileID: 0}
+    Multiplier: -0.1
+    clampMax: 1
+    clampMin: 1
+    maxStatClamp: 6
+    min: 0
+  StatChangeType: 1
+  EffectTags:
+    GrantedTags: []
+    OngoingTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    ApplicationTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    RemovalTagRequirements:
+      RequireTags: []
+      IgnoreTags: []
+    RemoveGameplayEffectsWithTag: []
+  Period: 0.1
+  ExecuteOnApplication: 0

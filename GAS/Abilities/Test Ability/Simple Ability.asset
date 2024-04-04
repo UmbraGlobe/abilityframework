@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97fd341085a6584e955b345597dd463, type: 3}
+  m_Name: Simple Ability
+  m_EditorClassIdentifier: 
+  AbilityName: Simple Ability
+  Cost: {fileID: 11400000, guid: f1e28446af0d490469a5939fcc84f801, type: 2}
+  Cooldown: {fileID: 11400000, guid: 9a0f43928fccf0e438e477b0c8ee709a, type: 2}
+  GameplayEffect: {fileID: 11400000, guid: baacc274f1714fd43a21e440ab695fce, type: 2}
